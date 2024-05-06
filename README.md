@@ -1,13 +1,18 @@
-# Sample Hardhat Project
+# Balloting DaPP
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+Simple Balloting Dapp
 
-Try running some of the following tasks:
-
+To test,
 ```shell
-npx hardhat help
 npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
+```
+
+To compile
+```shell 
+npx harhat compile
+```
+
+To deploy the smart contract
+```shell
+npx hardhat ignition deploy ./ignition/modules/Voting.js
 ```
